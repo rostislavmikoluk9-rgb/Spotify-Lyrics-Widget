@@ -9,4 +9,4 @@ To change the program, simply edit the config.json file or just RMB on it and cl
 
 You can edit x and y axes, font, size of text and color
 
-Created and tested on Arch Linux (CachyOS). Work 100%
+Created and tested on Arch Linux (CachyOS). Works 100%
