@@ -23,12 +23,16 @@ pip install PyQt6 syncedlyrics
 ```
 Or
 ```
-python -m pip install PyQt6 syncedlyrics winsdk
+python -m pip install PyQt6 syncedlyrics
 ```
 ### System-Specific Requirements
 * **Windows:**
   ```bash
   pip install winsdk
+  ```
+  Or
+  ```
+  python -m pip install winsdk
   ```
 * **Linux:**
   Requires `playerctl` to be installed on your system:
