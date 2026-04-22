@@ -21,7 +21,10 @@ Install the required libraries using pip:
 ```bash
 pip install PyQt6 syncedlyrics
 ```
-
+Or
+```
+python -m pip install PyQt6 syncedlyrics winsdk
+```
 ### System-Specific Requirements
 * **Windows:**
   ```bash
