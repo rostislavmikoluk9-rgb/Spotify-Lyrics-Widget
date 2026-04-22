@@ -16,7 +16,10 @@ A sleek, transparent, and customizable lyrics widget that stays on your desktop.
 
 ## 🛠️ Requirements
 
-### Python Dependencies
+### Python version 3.13(or lower) is required
+
+## Python Dependencies
+
 Install the required libraries using pip:
 ```bash
 pip install PyQt6 syncedlyrics
@@ -24,10 +27,6 @@ pip install PyQt6 syncedlyrics
 Or
 ```
 python -m pip install PyQt6 syncedlyrics
-```
-Or if you have python newer than 3.12
-```
-py -m pip install PyQt6 syncedlyrics
 ```
 ### System-Specific Requirements
 * **Windows:**
@@ -37,10 +36,6 @@ py -m pip install PyQt6 syncedlyrics
   Or
   ```
   python -m pip install winsdk
-  ```
-  Or if you have python newer than 3.12
-  ```
-  py -m pip install winsdk
   ```
 * **Linux:**
   Requires `playerctl` to be installed on your system:
