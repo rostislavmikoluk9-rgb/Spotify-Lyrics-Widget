@@ -1,13 +1,62 @@
-Idea by me, realization by google gemini
+🖥️ Spotify Desktop Lyrics Widget
+A sleek, transparent, and customizable lyrics widget that stays on your desktop. It automatically fetches synced lyrics for your currently playing song on Spotify (or other media players).
 
-For this to work, you need to have:
-1. PyQt6
-2. syncedlyrics
-3. playerctl (if you on linux)
-4. winsdk (if you on windows)
+Created by: Rostyslav Mykoliuk (Idea) & Google Gemini (Realization).
 
-To change the program, simply edit the config.json file or just RMB on it and click "Настройки"
+✨ Features
+Cross-Platform: Full support for Linux (tested on CachyOS/Arch) and Windows 10/11.
 
-You can edit x and y axes, font, size of text and color
+Real-time Customization: Built-in settings menu to change fonts, colors, and position without restarting.
 
-Created and tested on Arch Linux (CachyOS). Works 100%
+Transparent UI: No background, no borders—just the lyrics floating on your wallpaper.
+
+Smart Sync: Compensates for system delays to keep lyrics in time with the music.
+
+🛠️ Requirements
+Python Dependencies
+Install the required libraries using pip:
+
+Bash
+pip install PyQt6 syncedlyrics
+System-Specific Requirements
+Windows:
+
+Bash
+pip install winsdk
+Linux:
+Requires playerctl to be installed on your system:
+
+Bash
+# Arch Linux / CachyOS
+sudo pacman -S playerctl
+🚀 How to Use
+Clone the repository:
+
+Bash
+git clone https://github.com/your-username/spotify-lyrics-widget.git
+cd spotify-lyrics-widget
+Run the application:
+
+Bash
+python main.py
+Customize:
+
+Right-click the tray icon (cherry/app icon) and select "Настройки" (Settings).
+
+Or manually edit the config.json file.
+
+You can adjust: X/Y position, Font Family, Font Size, and Text Color.
+
+💡 Technical Notes & Fixes
+Windows 11 Transparency
+If you see a grey background/border on Windows:
+
+Go to Windows Settings > Personalization > Colors.
+
+Toggle Transparency Effects OFF and then ON again.
+
+Performance
+Minimal CPU usage thanks to efficient system-level media polling (winsdk for Windows and dbus/playerctl for Linux).
+
+🧪 Tested On
+OS: Arch Linux (CachyOS), Windows 11
