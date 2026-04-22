@@ -16,7 +16,7 @@ A sleek, transparent, and customizable lyrics widget that stays on your desktop.
 
 ## 🛠️ Requirements
 
-### Python version 3.13(or lower) is required
+### Python version 3.12(or lower) is required
 
 ## Python Dependencies
 
