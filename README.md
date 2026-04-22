@@ -3,7 +3,7 @@ Idea by me, realization by google gemini
 For this to work, you need to have:
 1. PyQt6
 2. syncedlyrics
-3. playerctl
+3. playerctl (if you on linux)
 
 To change the program, simply edit the config.json file or just RMB on it and click "Настройки"
 
