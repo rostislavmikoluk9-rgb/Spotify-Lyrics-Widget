@@ -17,7 +17,7 @@ A sleek, transparent, and customizable lyrics widget that stays on your desktop.
 ## 🛠️ Requirements
 
 ### Python version 3.12(or lower) is required
-## If pip didn't works, use
+## If pip didn't works on your linux, use
 
 ```bash
 sudo pacman -S python-pip
