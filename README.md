@@ -8,3 +8,5 @@ For this to work, you need to have:
 To change the program, simply edit the config.json file or just RMB on it and click "Настройки"
 
 You can edit x and y axes, font, size of text and color
+
+Created and tested on Arch Linux (CachyOS). Work 100%
