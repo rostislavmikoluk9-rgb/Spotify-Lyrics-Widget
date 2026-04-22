@@ -38,16 +38,11 @@ pip install PyQt6 syncedlyrics
 
 ## 🚀 How to Use
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/rostislavmikoluk9-rgb/spotify-lyrics-widget.git](https://github.com/rostislavmikoluk9-rgb/spotify-lyrics-widget.git)
-   cd spotify-lyrics-widget
-   ```
-2. **Run the application:**
+1. **Run the application:**
    ```bash
    python main.py
    ```
-3. **Customize:**
+2. **Customize:**
    * **Right-click** the tray icon (cherry/app icon) and select **"Настройки" (Settings)**.
    * Or manually edit the `config.json` file.
    * You can adjust: **X/Y position, Font Family, Font Size, and Text Color**.
