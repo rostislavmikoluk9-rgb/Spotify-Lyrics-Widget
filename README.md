@@ -39,6 +39,8 @@ pip install PyQt6 syncedlyrics
 ## 🚀 How to Use
 
 1.1 **Run the application (For Linux):**
+   
+   In terminal from folder  
    ```bash
    python main.py
    ```
