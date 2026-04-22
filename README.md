@@ -1,6 +1,6 @@
 # 🖥️ Spotify Desktop Lyrics Widget
 
-A sleek, transparent, and customizable lyrics widget that stays on your desktop. It automatically fetches synced lyrics for your currently playing song on Spotify (or other media players).
+A sleek, transparent, and customizable lyrics widget that stays on your desktop. It automatically fetches synced lyrics for your currently playing song on Spotify.
 
 **Created by:** Rostyslav Mykoliuk (Idea) & Google Gemini (Realization).
 
