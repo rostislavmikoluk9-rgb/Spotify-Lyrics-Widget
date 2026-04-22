@@ -4,6 +4,7 @@ For this to work, you need to have:
 1. PyQt6
 2. syncedlyrics
 3. playerctl (if you on linux)
+4. winsdk (if you on windows)
 
 To change the program, simply edit the config.json file or just RMB on it and click "Настройки"
 
