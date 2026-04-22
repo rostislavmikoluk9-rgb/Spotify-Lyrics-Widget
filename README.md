@@ -38,9 +38,13 @@ pip install PyQt6 syncedlyrics
 
 ## 🚀 How to Use
 
-1. **Run the application:**
+1.1 **Run the application (For Linux):**
    ```bash
    python main.py
+   ```
+1.2 **Run the application (For Windows):**
+   ```
+   simply just run main.pyw
    ```
 2. **Customize:**
    * **Right-click** the tray icon (cherry/app icon) and select **"Настройки" (Settings)**.
