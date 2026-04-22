@@ -59,6 +59,10 @@ python -m pip install PyQt6 syncedlyrics
    ```bash
    python main.py
    ```
+   or
+
+   start run.sh from folder
+   
 1.2 **Run the application (For Windows):**
    ```
    simply just run main.pyw
