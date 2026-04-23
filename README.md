@@ -64,9 +64,9 @@ python -m pip install PyQt6 syncedlyrics
    start run.sh from folder
    
 1.2 **Run the application (For Windows):**
-   ```
+   
    simply just run main.pyw
-   ```
+   
 2. **Customize:**
    * **Right-click** the tray icon (cherry/app icon) and select **"Настройки" (Settings)**.
    * Or manually edit the `config.json` file.
